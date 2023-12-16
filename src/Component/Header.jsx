@@ -7,6 +7,8 @@ import Details from "../Pages/Details";
 function Header() {
   return (
     <>
+      {" "}
+      <h2>Blog website</h2>
       <nav className="navbar navbar-expand-lg bg-body-tertiary text-uppercase">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
@@ -133,7 +135,6 @@ function Header() {
           </div>
         </div>
       </nav>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/category/:cat" element={<Category />} />
